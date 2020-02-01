@@ -578,9 +578,20 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" ShortID="623900687">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+									<ObjectRef Name="Caught_in_a_loop" ID="{8FC64215-9A75-4BE3-A33A-584C8CA49963}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
@@ -592,7 +603,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -619,7 +630,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -643,7 +654,22 @@
 								</Sound>
 								<Sound Name="SFX_Vibration_Physic_Loop" ID="{AC258077-CB4E-4E1E-8F18-7E50F7E24920}" ShortID="74465308">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>70</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -683,8 +709,9 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>-5.7158</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>351.36218</XPos>
@@ -737,8 +764,9 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>-4.0824</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
@@ -776,6 +804,35 @@
 								<BlendTrack Name="Vibration Physique" ID="{A8362A14-40AD-4AFF-825D-70CCE9BA4FE9}" ShortID="485577472">
 									<PropertyList>
 										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Highpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{B4751FDC-4EF7-4CAE-8D84-21C28308EFF9}" ShortID="400452842">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="DistanceToRightPlace" ID="{CDEA4FA5-28EA-48BC-90B1-854365AB7252}" WorkUnitID="{280C0BA9-56EB-426A-B812-47DB077D6521}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6399D7F3-9FB3-4B99-83AF-D6F25BB4D6F5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-100</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>500</XPos>
+																<YPos>37</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{DDECAC3B-758D-46D8-91FA-F8DA8CC538BD}" ShortID="922449993">
@@ -793,6 +850,7 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>500</XPos>
@@ -825,6 +883,13 @@
 							</BlendTrackList>
 						</BlendContainer>
 						<SwitchContainer Name="Grab_Object_SWITCH" ID="{CC4FC95E-4B3F-43A6-A76C-7A49B19F3D69}" ShortID="784905339">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
@@ -885,6 +950,35 @@
 										<ActiveSource Name="SFX_Grab_ObjectPorcelain" ID="{5D7247A9-E771-4E43-964B-46A53C7DAD94}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}" ShortID="70014818">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Interior_Acoustic" ID="{4393B3DD-0BF8-48E3-A278-F0FDC578B72C}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Grab_Sponge" ID="{5CDECB89-AC59-4F14-A8E7-8EA11030923F}" ShortID="435452180">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Grab_Sponge.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Grab_Sponge" ID="{5CDECB89-AC59-4F14-A8E7-8EA11030923F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -892,10 +986,19 @@
 										<ItemRef Name="SFX_Grab_ObjectMetal" ID="{FA705444-61AB-42DB-90EC-4CC28B81BE4F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="SFX_Grab_ObjectPorcelain" ID="{0ACF41ED-DD3B-4947-BD99-EA3BC23AA1D7}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Sponge" ID="{EF53AB04-BD64-4C91-9E0C-59435924DDEB}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}"/>
+										</ItemList>
+									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
 										<ItemList>
@@ -911,21 +1014,136 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
-					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="Sponge" ID="{4419AD0C-BDD7-452F-ADF2-D65D4F72AD60}" ShortID="584184836">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Interior_Acoustic" ID="{4393B3DD-0BF8-48E3-A278-F0FDC578B72C}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
+						<SwitchContainer Name="Drop_Objet_SWITCH" ID="{82C8638B-F15B-4010-B717-CA209E345B60}" ShortID="647255568">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Metal" ID="{BCB7B512-F40E-4414-BA95-EA06278D741D}" WorkUnitID="{DE41C68D-1542-46D2-AFF1-1E1ED7D2C58D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Object_Material" ID="{D1F46449-11EA-46C8-BD62-4E0E2B3BBE4C}" WorkUnitID="{DE41C68D-1542-46D2-AFF1-1E1ED7D2C58D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Objects_DropMetal" ID="{F7B0D77D-8802-443D-830C-FD6212FE526E}" ShortID="708263570">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Objects_DropMetal" ID="{62056843-FAD0-4E17-B67D-9D0AD431BAD9}" ShortID="430470032">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Objects_DropMetal.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Objects_DropMetal" ID="{62056843-FAD0-4E17-B67D-9D0AD431BAD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Objects_DropPorcelain" ID="{7DF16527-22DA-4EA2-8477-BAB7255D9EA5}" ShortID="81461420">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Objects_DropPorcelain" ID="{5FBEDA24-A6E4-46B0-89F3-13ACB3AFBB90}" ShortID="579030665">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Objects_DropPorcelain.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Objects_DropPorcelain" ID="{5FBEDA24-A6E4-46B0-89F3-13ACB3AFBB90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}" ShortID="808799405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Interior_Acoustic" ID="{4393B3DD-0BF8-48E3-A278-F0FDC578B72C}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Drop_Sponge" ID="{F657B546-45E9-429E-B426-BA590E662C58}" ShortID="897574348">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Drop_Sponge.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Drop_Sponge" ID="{F657B546-45E9-429E-B426-BA590E662C58}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="SFX_Objects_DropPorcelain" ID="{7DF16527-22DA-4EA2-8477-BAB7255D9EA5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SFX_Objects_DropMetal" ID="{F7B0D77D-8802-443D-830C-FD6212FE526E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Sponge" ID="{EF53AB04-BD64-4C91-9E0C-59435924DDEB}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Objects_DropPorcelain" ID="{7DF16527-22DA-4EA2-8477-BAB7255D9EA5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Metal" ID="{BCB7B512-F40E-4414-BA95-EA06278D741D}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Objects_DropMetal" ID="{F7B0D77D-8802-443D-830C-FD6212FE526E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 						<RandomSequenceContainer Name="Essorage_RND" ID="{B4995DB8-BB71-477B-9DD7-92C1F32C4BAA}" ShortID="242619013">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
@@ -940,6 +1158,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Interior_Acoustic" ID="{4393B3DD-0BF8-48E3-A278-F0FDC578B72C}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -988,51 +1209,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}" ShortID="70014818">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_Grab_Sponge" ID="{5CDECB89-AC59-4F14-A8E7-8EA11030923F}" ShortID="435452180">
-									<Language>SFX</Language>
-									<AudioFile>SFX_Grab_Sponge.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Grab_Sponge" ID="{5CDECB89-AC59-4F14-A8E7-8EA11030923F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}" ShortID="808799405">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_Drop_Sponge" ID="{F657B546-45E9-429E-B426-BA590E662C58}" ShortID="897574348">
-									<Language>SFX</Language>
-									<AudioFile>SFX_Drop_Sponge.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Drop_Sponge" ID="{F657B546-45E9-429E-B426-BA590E662C58}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="House" ID="{2EDDFE56-DCEA-4E8E-B661-B4A84855EFB6}" ShortID="716122662">
@@ -1288,6 +1464,128 @@
 								<ActiveSource Name="SFX_Ambiences_InteriorHouse" ID="{D13F9CB1-DABC-4F4F-8752-B3F5268E6A3F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Other" ID="{B2D06DBB-A10E-4CE9-8966-896D88846813}" ShortID="242816129">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Interior_Acoustic" ID="{4393B3DD-0BF8-48E3-A278-F0FDC578B72C}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Blood_Splash_RND" ID="{A604DBDC-F460-4ED1-A683-7074DDE0AB08}" ShortID="857993568">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="75"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Spash Attenuation" ID="{3E1A36BD-56A4-4292-A632-B8427DB0AA1E}" WorkUnitID="{5A66EB00-EEBE-41BB-A45B-A5AD81696DE6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Blood_Splash_00" ID="{EB4BC0A6-A762-4BA5-BD56-2A288BE9ABC0}" ShortID="754886118">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Blood_Splash_00" ID="{A597A984-BE1F-46D1-92E9-EC0C2F00BCAF}" ShortID="523509349">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Blood_Splash_00.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Blood_Splash_00" ID="{A597A984-BE1F-46D1-92E9-EC0C2F00BCAF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Blood_Splash_01" ID="{21199706-89EE-44E8-8F93-5BEFDBD0F9F7}" ShortID="381225081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Blood_Splash_01" ID="{E9EBB323-847A-4095-B18F-23D03C2C8EC3}" ShortID="575719255">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Blood_Splash_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Blood_Splash_01" ID="{E9EBB323-847A-4095-B18F-23D03C2C8EC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Blood_Splash_02" ID="{81FB17AB-1FEC-4BF0-80C8-24852F552458}" ShortID="888842396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Blood_Splash_02" ID="{713F2EA7-C084-4D0C-8DF3-52010CCAB28F}" ShortID="655449155">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Blood_Splash_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Blood_Splash_02" ID="{713F2EA7-C084-4D0C-8DF3-52010CCAB28F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Blood_Splash_03" ID="{071B6788-B5FD-4160-BB09-2D791196EADE}" ShortID="676691593">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Blood_Splash_03" ID="{A014C0DD-C504-409A-9B33-729DBB3A208D}" ShortID="788605314">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Blood_Splash_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Blood_Splash_03" ID="{A014C0DD-C504-409A-9B33-729DBB3A208D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

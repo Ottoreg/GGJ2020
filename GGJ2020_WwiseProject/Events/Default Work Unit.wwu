@@ -57,28 +57,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_Drop_Sponge" ID="{6A4E94BA-EF48-423C-972C-013917AA8A5E}">
-					<ChildrenList>
-						<Action Name="" ID="{41697551-DC49-4B58-868E-1410B989EEDB}" ShortID="117334521">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Grab_Sponge" ID="{75FB22A1-BF46-4FF2-B388-52352B355D40}">
-					<ChildrenList>
-						<Action Name="" ID="{45EB2EE3-5F49-4C24-96DC-7534B73E8661}" ShortID="954979161">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Essorage_RND" ID="{4C8FCB6A-4007-421B-A44E-D3F346769390}">
 					<ChildrenList>
 						<Action Name="" ID="{CAC24310-D6E2-49B3-9780-6D50CDD98101}" ShortID="1029392794">
@@ -118,6 +96,53 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Ambiences_InteriorHouse" ID="{F7EEEBB0-9A42-4F2E-8C07-1D3F9C7B496A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}">
+					<ChildrenList>
+						<Action Name="" ID="{1D4BD3BA-1F5E-4FAC-8F60-5CAD57D080DC}" ShortID="621049579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}">
+					<ChildrenList>
+						<Action Name="" ID="{63DE5AC1-58D7-4528-80C2-CEB642D1A7F7}" ShortID="314812682">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drop_Objet_SWITCH" ID="{7AACDE5D-645F-46AC-B2D5-5DF3085AB818}">
+					<ChildrenList>
+						<Action Name="" ID="{009AC8F4-9850-478A-B1F5-128DBA832D75}" ShortID="486983824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drop_Objet_SWITCH" ID="{82C8638B-F15B-4010-B717-CA209E345B60}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Blood_Splash_RND" ID="{4C127B41-224A-4056-AA74-5C725CD4E4B7}">
+					<ChildrenList>
+						<Action Name="" ID="{B4B235B4-E114-4713-84DF-B3417FA6EC4C}" ShortID="908524081">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blood_Splash_RND" ID="{A604DBDC-F460-4ED1-A683-7074DDE0AB08}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
