@@ -1,2 +1,2 @@
-Soundbank	"Play_Breath_State_BLEND"
 Soundbank	"Play_Footsteps_SWITCH"
+Soundbank	"Play_Breath_State_BLEND"

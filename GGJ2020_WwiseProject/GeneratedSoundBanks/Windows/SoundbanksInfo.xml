@@ -25,33 +25,25 @@
 				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="106711193" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_01.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_01_10C4C929.wem</Path>
+				</File>
 				<File Id="109690392" Language="SFX">
 					<ShortName>SFX_Foleysteps_01.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_01_10C4C929.wem</Path>
-				</File>
-				<File Id="234499042" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_05.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_05_10C4C929.wem</Path>
-				</File>
-				<File Id="250477048" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_03.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_03_10C4C929.wem</Path>
 				</File>
 				<File Id="258984453" Language="SFX">
 					<ShortName>SFX_Craquement_03.wav</ShortName>
 					<Path>SFX\SFX_Craquement_03_10C4C929.wem</Path>
 				</File>
-				<File Id="348891940" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_06.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_06_10C4C929.wem</Path>
+				<File Id="389802112" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_02.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_02_10C4C929.wem</Path>
 				</File>
-				<File Id="369250729" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_07.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_07_10C4C929.wem</Path>
-				</File>
-				<File Id="444727398" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_01.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_01_10C4C929.wem</Path>
+				<File Id="560303114" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_06.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem</Path>
 				</File>
 				<File Id="598704831" Language="SFX">
 					<ShortName>SFX_Foleysteps_02.wav</ShortName>
@@ -65,10 +57,6 @@
 					<ShortName>SFX_Breath_MediumLoop.wav</ShortName>
 					<Path>SFX\SFX_Breath_MediumLoop_D79FB2B7.wem</Path>
 				</File>
-				<File Id="667865214" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_02.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_02_10C4C929.wem</Path>
-				</File>
 				<File Id="712400125" Language="SFX">
 					<ShortName>SFX_Breath_FastLoop.wav</ShortName>
 					<Path>SFX\SFX_Breath_FastLoop_D79FB2B7.wem</Path>
@@ -76,6 +64,10 @@
 				<File Id="719608110" Language="SFX">
 					<ShortName>SFX_Craquement_01.wav</ShortName>
 					<Path>SFX\SFX_Craquement_01_10C4C929.wem</Path>
+				</File>
+				<File Id="725763596" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_04.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_04_10C4C929.wem</Path>
 				</File>
 				<File Id="736733107" Language="SFX">
 					<ShortName>SFX_Craquement_00.wav</ShortName>
@@ -85,10 +77,6 @@
 					<ShortName>SFX_Craquement_02.wav</ShortName>
 					<Path>SFX\SFX_Craquement_02_10C4C929.wem</Path>
 				</File>
-				<File Id="780377419" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_04.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_04_10C4C929.wem</Path>
-				</File>
 				<File Id="788187437" Language="SFX">
 					<ShortName>SFX_Foleysteps_04.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_04_10C4C929.wem</Path>
@@ -97,17 +85,29 @@
 					<ShortName>SFX_Foleysteps_03.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_03_10C4C929.wem</Path>
 				</File>
-				<File Id="815403541" Language="SFX">
-					<ShortName>SFX_Footsteps_Parquet_00.wav</ShortName>
-					<Path>SFX\SFX_Footsteps_Parquet_00_10C4C929.wem</Path>
+				<File Id="803443241" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_03.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_03_10C4C929.wem</Path>
+				</File>
+				<File Id="866984795" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_05.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_05_10C4C929.wem</Path>
 				</File>
 				<File Id="874029082" Language="SFX">
 					<ShortName>SFX_Foleysteps_00.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_00_10C4C929.wem</Path>
 				</File>
+				<File Id="933250041" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_07.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_07_10C4C929.wem</Path>
+				</File>
 				<File Id="971563571" Language="SFX">
 					<ShortName>SFX_Breath_SlowLoop.wav</ShortName>
 					<Path>SFX\SFX_Breath_SlowLoop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="984809651" Language="SFX">
+					<ShortName>SFX_Footsteps_Parquetv2_00.wav</ShortName>
+					<Path>SFX\SFX_Footsteps_Parquetv2_00_10C4C929.wem</Path>
 				</File>
 				<File Id="1058645652" Language="SFX">
 					<ShortName>SFX_Craquement_04.wav</ShortName>
