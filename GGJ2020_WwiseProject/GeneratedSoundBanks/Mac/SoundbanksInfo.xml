@@ -25,7 +25,9 @@
 				<Event Id="902373862" Name="Play_Essorage_RND" ObjectPath="\Events\Default Work Unit\Play_Essorage_RND"/>
 				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
 				<Event Id="1119481481" Name="Play_Grab_Object_SWITCH" ObjectPath="\Events\Default Work Unit\Play_Grab_Object_SWITCH"/>
+				<Event Id="532981842" Name="Play_SFX_Ambiences_CityTrafficExterior" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiences_CityTrafficExterior"/>
 				<Event Id="136331070" Name="Play_SFX_Drop_Sponge" ObjectPath="\Events\Default Work Unit\Play_SFX_Drop_Sponge"/>
+				<Event Id="1122701954" Name="Play_SFX_Event_PoliceStreetArriving" ObjectPath="\Events\Default Work Unit\Play_SFX_Event_PoliceStreetArriving"/>
 				<Event Id="392501221" Name="Play_SFX_Grab_Sponge" ObjectPath="\Events\Default Work Unit\Play_SFX_Grab_Sponge"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -65,6 +67,10 @@
 					<ShortName>SFX_Footsteps_Parquetv2_06.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem</Path>
 				</File>
+				<File Id="581383483" Language="SFX">
+					<ShortName>SFX_Event_PoliceStreetArriving.wav</ShortName>
+					<Path>SFX\SFX_Event_PoliceStreetArriving_10C4C929.wem</Path>
+				</File>
 				<File Id="598704831" Language="SFX">
 					<ShortName>SFX_Foleysteps_02.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_02_10C4C929.wem</Path>
@@ -72,6 +78,10 @@
 				<File Id="610835259" Language="SFX">
 					<ShortName>SFX_Foleysteps_05.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_05_10C4C929.wem</Path>
+				</File>
+				<File Id="648561820" Language="SFX">
+					<ShortName>SFX_Ambiences_CityTrafficExterior.wav</ShortName>
+					<Path>SFX\SFX_Ambiences_CityTrafficExterior_E57DFE95.wem</Path>
 				</File>
 				<File Id="660991772" Language="SFX">
 					<ShortName>SFX_Breath_MediumLoop.wav</ShortName>

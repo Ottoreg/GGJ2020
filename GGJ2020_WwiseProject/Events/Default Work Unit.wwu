@@ -90,6 +90,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Event_PoliceStreetArriving" ID="{5B5CB818-D319-4F0C-94AB-D03275F05168}">
+					<ChildrenList>
+						<Action Name="" ID="{0C619203-C2E9-4FD0-B3F0-7DA0000D0D48}" ShortID="17617186">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Event_PoliceStreetArriving" ID="{25498A8A-1530-4793-8142-CDE891D55659}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}">
+					<ChildrenList>
+						<Action Name="" ID="{B5D2C2AC-36E1-4B3F-8074-43FF42AC0D73}" ShortID="750881721">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ambiences_CityTrafficExterior" ID="{A506C5B8-BA6F-4CAE-B1F6-66F77A78D0AC}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

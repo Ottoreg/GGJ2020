@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	136331070	Play_SFX_Drop_Sponge			\Default Work Unit\Play_SFX_Drop_Sponge	
 	392501221	Play_SFX_Grab_Sponge			\Default Work Unit\Play_SFX_Grab_Sponge	
+	532981842	Play_SFX_Ambiences_CityTrafficExterior			\Default Work Unit\Play_SFX_Ambiences_CityTrafficExterior	
 	902373862	Play_Essorage_RND			\Default Work Unit\Play_Essorage_RND	
 	1119481481	Play_Grab_Object_SWITCH			\Default Work Unit\Play_Grab_Object_SWITCH	
+	1122701954	Play_SFX_Event_PoliceStreetArriving			\Default Work Unit\Play_SFX_Event_PoliceStreetArriving	
 	2838179778	Play_Footsteps_SWITCH			\Default Work Unit\Character\Play_Footsteps_SWITCH	
 	2948361678	Play_Breath_State_BLEND			\Default Work Unit\Character\Play_Breath_State_BLEND	
 
@@ -19,6 +21,9 @@ Switch	ID	Name	Switch Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3920142940	Timer			\Default Work Unit\Timer	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2513915904	Hall_Large	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	106711193	SFX_Footsteps_Parquetv2_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_01		68924
 	109690392	SFX_Foleysteps_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_01		62024
@@ -29,8 +34,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	435452180	SFX_Grab_Sponge	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_Sponge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\SFX_Grab_Sponge		33268
 	555879596	SFX_Sponge_Essorage_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Sponge_Essorage_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\Essorage_RND\SFX_Sponge_Essorage_01		417240
 	560303114	SFX_Footsteps_Parquetv2_06	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_06		68400
+	581383483	SFX_Event_PoliceStreetArriving	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_PoliceStreetArriving_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_PoliceStreetArriving		4892208
 	598704831	SFX_Foleysteps_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_02		76980
 	610835259	SFX_Foleysteps_05	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Foleysteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_05		76960
+	648561820	SFX_Ambiences_CityTrafficExterior	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Ambiences_CityTrafficExterior_E57DFE95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\SFX_Ambiences_CityTrafficExterior		13897260
 	660991772	SFX_Breath_MediumLoop	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Breath_MediumLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_MediumLoop		2822346
 	712400125	SFX_Breath_FastLoop	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Breath_FastLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_FastLoop		2675328
 	719608110	SFX_Craquement_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Craquement_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_01		32022
