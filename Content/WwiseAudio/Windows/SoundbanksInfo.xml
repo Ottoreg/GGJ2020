@@ -24,6 +24,10 @@
 				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="109690392" Language="SFX">
+					<ShortName>SFX_Foleysteps_01.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_01_10C4C929.wem</Path>
+				</File>
 				<File Id="234499042" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquet_05.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquet_05_10C4C929.wem</Path>
@@ -48,6 +52,14 @@
 					<ShortName>SFX_Footsteps_Parquet_01.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquet_01_10C4C929.wem</Path>
 				</File>
+				<File Id="598704831" Language="SFX">
+					<ShortName>SFX_Foleysteps_02.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_02_10C4C929.wem</Path>
+				</File>
+				<File Id="610835259" Language="SFX">
+					<ShortName>SFX_Foleysteps_05.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_05_10C4C929.wem</Path>
+				</File>
 				<File Id="667865214" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquet_02.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquet_02_10C4C929.wem</Path>
@@ -68,9 +80,21 @@
 					<ShortName>SFX_Footsteps_Parquet_04.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquet_04_10C4C929.wem</Path>
 				</File>
+				<File Id="788187437" Language="SFX">
+					<ShortName>SFX_Foleysteps_04.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_04_10C4C929.wem</Path>
+				</File>
+				<File Id="799397062" Language="SFX">
+					<ShortName>SFX_Foleysteps_03.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_03_10C4C929.wem</Path>
+				</File>
 				<File Id="815403541" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquet_00.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquet_00_10C4C929.wem</Path>
+				</File>
+				<File Id="874029082" Language="SFX">
+					<ShortName>SFX_Foleysteps_00.wav</ShortName>
+					<Path>SFX\SFX_Foleysteps_00_10C4C929.wem</Path>
 				</File>
 				<File Id="1058645652" Language="SFX">
 					<ShortName>SFX_Craquement_04.wav</ShortName>
