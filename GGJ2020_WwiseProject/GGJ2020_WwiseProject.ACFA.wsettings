@@ -3,13 +3,11 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{58CEE259-CA2A-44CB-BEB4-2BC47253D9C9}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\PROJETS\Global Game Jam 2020\Assets\Ambiences"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\PROJETS\Global Game Jam 2020\Assets\Objects\Grabs"/>
 				<Property Name="Event Action List\{4C8FCB6A-4007-421B-A44E-D3F346769390}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{5B5CB818-D319-4F0C-94AB-D03275F05168}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6A3808EE-AFAF-4828-8043-0D887052BBF8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6A4E94BA-EF48-423C-972C-013917AA8A5E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{75FB22A1-BF46-4FF2-B388-52352B355D40}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D595DE5A-EA2E-4FFB-BF64-543C61B8B07E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FCA48CA3-E30E-4E83-90E2-105BC4880238}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>

@@ -20,7 +20,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -152,16 +152,6 @@
 						<BlendContainer Name="Breath_State_BLEND" ID="{3EE52FE6-AF20-44B5-989E-67ECD0AD6812}" ShortID="64777082">
 							<PropertyList>
 								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-								<Property Name="MaxSoundPerInstance" Type="int16">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
-								<Property Name="UseMaxSoundPerInstance" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -320,13 +310,6 @@
 							</BlendTrackList>
 						</BlendContainer>
 						<SwitchContainer Name="Footsteps_SWITCH" ID="{402C07A2-8417-4B75-8A47-E097F838E329}" ShortID="839531611">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
@@ -1163,99 +1146,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="Events" ID="{C1D127F0-1EC1-4EFF-8B8C-65E31B749752}" ShortID="887914566">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="SFX_Event_PoliceStreetArriving" ID="{25498A8A-1530-4793-8142-CDE891D55659}" ShortID="204677050">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Street Amb Attenuation" ID="{EF06E357-03D9-4BBB-AF70-D8CDBCB87D09}" WorkUnitID="{5A66EB00-EEBE-41BB-A45B-A5AD81696DE6}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_Event_PoliceStreetArriving" ID="{2A713119-A12F-4CBD-83B9-E8F8787A9285}" ShortID="581383483">
-									<Language>SFX</Language>
-									<AudioFile>SFX_Event_PoliceStreetArriving.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Event_PoliceStreetArriving" ID="{2A713119-A12F-4CBD-83B9-E8F8787A9285}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</ActorMixer>
-				<ActorMixer Name="Ambiences" ID="{AD30F415-9FF3-427A-9257-E4EB0EA5D084}" ShortID="401338115">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="SFX_Ambiences_CityTrafficExterior" ID="{A506C5B8-BA6F-4CAE-B1F6-66F77A78D0AC}" ShortID="712871618">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Street Amb Attenuation" ID="{EF06E357-03D9-4BBB-AF70-D8CDBCB87D09}" WorkUnitID="{5A66EB00-EEBE-41BB-A45B-A5AD81696DE6}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
-								</Reference>
-								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_Ambiences_CityTrafficExterior" ID="{1D6BA6AF-0B54-4E0D-BBAF-12F8F9E6EEB1}" ShortID="648561820">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="3.46557912808976E-03"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX_Ambiences_CityTrafficExterior.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_Ambiences_CityTrafficExterior" ID="{1D6BA6AF-0B54-4E0D-BBAF-12F8F9E6EEB1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
