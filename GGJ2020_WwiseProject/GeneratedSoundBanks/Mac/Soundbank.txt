@@ -1,12 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2838179778	Play_Footsteps_SWITCH			\Default Work Unit\Character\Play_Footsteps_SWITCH	
+	2948361678	Play_Breath_State_BLEND			\Default Work Unit\Character\Play_Breath_State_BLEND	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
+	4064446173	Surface_Type			\Default Work Unit\House\Surface_Type	
 
 Switch	ID	Name	Switch Group			Notes
 	1791601991	Parquet	Surface_Type			
 	2412606308	Carpet	Surface_Type			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3920142940	Timer			\Default Work Unit\Timer	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	109690392	SFX_Foleysteps_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_01		62024
@@ -18,7 +22,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	444727398	SFX_Footsteps_Parquet_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquet_01		54666
 	598704831	SFX_Foleysteps_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_02		76980
 	610835259	SFX_Foleysteps_05	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_05		76960
+	660991772	SFX_Breath_MediumLoop	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Breath_MediumLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_MediumLoop		2822346
 	667865214	SFX_Footsteps_Parquet_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquet_02		56588
+	712400125	SFX_Breath_FastLoop	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Breath_FastLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_FastLoop		2675328
 	719608110	SFX_Craquement_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_01		32022
 	736733107	SFX_Craquement_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_00		36746
 	762426811	SFX_Craquement_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_02		59558
@@ -27,5 +33,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	799397062	SFX_Foleysteps_03	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_03		85352
 	815403541	SFX_Footsteps_Parquet_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquet_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquet_00		53032
 	874029082	SFX_Foleysteps_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_00		64160
+	971563571	SFX_Breath_SlowLoop	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Breath_SlowLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_SlowLoop		2695502
 	1058645652	SFX_Craquement_04	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_04		41714
 

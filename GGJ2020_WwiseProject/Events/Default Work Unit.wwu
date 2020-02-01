@@ -33,6 +33,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}">
+							<ChildrenList>
+								<Action Name="" ID="{3BECB140-C5AB-4FA2-A46F-305617F02352}" ShortID="178203181">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_State_BLEND" ID="{3EE52FE6-AF20-44B5-989E-67ECD0AD6812}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

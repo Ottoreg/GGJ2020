@@ -6,6 +6,7 @@
 				<SoundBank Name="Soundbank" ID="{DC2E5FA6-315D-421C-915B-C8AF2C1106DE}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Footsteps_SWITCH" ID="{6A3808EE-AFAF-4828-8043-0D887052BBF8}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
