@@ -9,6 +9,12 @@
 						<Property Name="Max" Type="Real64" Value="300"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="DistanceToRightPlace" ID="{CDEA4FA5-28EA-48BC-90B1-854365AB7252}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="500"/>
+						<Property Name="Max" Type="Real64" Value="500"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

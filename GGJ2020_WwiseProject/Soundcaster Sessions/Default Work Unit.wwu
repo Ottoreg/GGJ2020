@@ -12,13 +12,18 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="DistanceToRightPlace" ID="{CDEA4FA5-28EA-48BC-90B1-854365AB7252}"/>
+							<Value>378.205128205128</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Timer" ID="{5B4D72B1-477C-4D87-A008-874695DB708C}"/>
 							<Value>44.6209386281588</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Parquet" ID="{EECF14AF-C979-45D2-A909-26ABD3F18E42}"/>
+						<CurrentSwitchRef Name="Metal" ID="{BCB7B512-F40E-4414-BA95-EA06278D741D}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{FDE0A6FB-0A25-4253-89AE-AD17A7802EED}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

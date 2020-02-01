@@ -5,8 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{DC2E5FA6-315D-421C-915B-C8AF2C1106DE}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Essorage_RND" ID="{4C8FCB6A-4007-421B-A44E-D3F346769390}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Drop_Sponge" ID="{6A4E94BA-EF48-423C-972C-013917AA8A5E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Footsteps_SWITCH" ID="{6A3808EE-AFAF-4828-8043-0D887052BBF8}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Grab_Sponge" ID="{75FB22A1-BF46-4FF2-B388-52352B355D40}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Grab_Object_SWITCH" ID="{D595DE5A-EA2E-4FFB-BF64-543C61B8B07E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

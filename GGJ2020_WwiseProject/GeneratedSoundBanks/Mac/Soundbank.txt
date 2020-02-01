@@ -1,13 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	136331070	Play_SFX_Drop_Sponge			\Default Work Unit\Play_SFX_Drop_Sponge	
+	392501221	Play_SFX_Grab_Sponge			\Default Work Unit\Play_SFX_Grab_Sponge	
+	902373862	Play_Essorage_RND			\Default Work Unit\Play_Essorage_RND	
+	1119481481	Play_Grab_Object_SWITCH			\Default Work Unit\Play_Grab_Object_SWITCH	
 	2838179778	Play_Footsteps_SWITCH			\Default Work Unit\Character\Play_Footsteps_SWITCH	
 	2948361678	Play_Breath_State_BLEND			\Default Work Unit\Character\Play_Breath_State_BLEND	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	4064446173	Surface_Type			\Default Work Unit\House\Surface_Type	
+	3539622648	Ground_Material			\Default Work Unit\Ground_Material	
+	4083796540	Object_Material			\Default Work Unit\Object_Material	
 
 Switch	ID	Name	Switch Group			Notes
-	1791601991	Parquet	Surface_Type			
-	2412606308	Carpet	Surface_Type			
+	1791601991	Parquet	Ground_Material			
+	2412606308	Carpet	Ground_Material			
+	2473969246	Metal	Object_Material			
+	3020931316	Porcelain	Object_Material			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3920142940	Timer			\Default Work Unit\Timer	
@@ -16,7 +23,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	106711193	SFX_Footsteps_Parquetv2_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_01		68924
 	109690392	SFX_Foleysteps_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_01		62024
 	258984453	SFX_Craquement_03	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_03		86862
+	294064250	SFX_Grab_ObjectMetal	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Grab_ObjectMetal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectMetal		56800
+	328765238	SFX_Grab_ObjectPorcelain	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Grab_ObjectPorcelain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectPorcelain		44548
 	389802112	SFX_Footsteps_Parquetv2_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_02		68380
+	435452180	SFX_Grab_Sponge	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Grab_Sponge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\SFX_Grab_Sponge		33268
+	555879596	SFX_Sponge_Essorage_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Sponge_Essorage_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\Essorage_RND\SFX_Sponge_Essorage_01		417240
 	560303114	SFX_Footsteps_Parquetv2_06	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_06		68400
 	598704831	SFX_Foleysteps_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_02		76980
 	610835259	SFX_Foleysteps_05	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_05		76960
@@ -25,12 +36,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	719608110	SFX_Craquement_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_01		32022
 	725763596	SFX_Footsteps_Parquetv2_04	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_04		71604
 	736733107	SFX_Craquement_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_00		36746
+	745743475	SFX_Sponge_Essorage_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Sponge_Essorage_00_847BBBB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\Essorage_RND\SFX_Sponge_Essorage_00		382304
 	762426811	SFX_Craquement_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Craquement_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\House\Craquements_Steps_RND\SFX_Craquement_02		59558
 	788187437	SFX_Foleysteps_04	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_04		82776
 	799397062	SFX_Foleysteps_03	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_03		85352
 	803443241	SFX_Footsteps_Parquetv2_03	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_03		65916
 	866984795	SFX_Footsteps_Parquetv2_05	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_05		64912
 	874029082	SFX_Foleysteps_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Foleysteps_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Foleysteps_RND\SFX_Foleysteps_00		64160
+	897574348	SFX_Drop_Sponge	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Drop_Sponge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\SFX_Drop_Sponge		37660
 	933250041	SFX_Footsteps_Parquetv2_07	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_07		64024
 	971563571	SFX_Breath_SlowLoop	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Breath_SlowLoop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Breath_State_BLEND\SFX_Breath_SlowLoop		2695502
 	984809651	SFX_Footsteps_Parquetv2_00	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\SFX\SFX_Footsteps_Parquetv2_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_00		69704

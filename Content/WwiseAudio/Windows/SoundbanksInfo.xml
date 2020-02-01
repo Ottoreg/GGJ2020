@@ -22,7 +22,11 @@
 			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2948361678" Name="Play_Breath_State_BLEND" ObjectPath="\Events\Default Work Unit\Character\Play_Breath_State_BLEND"/>
+				<Event Id="902373862" Name="Play_Essorage_RND" ObjectPath="\Events\Default Work Unit\Play_Essorage_RND"/>
 				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
+				<Event Id="1119481481" Name="Play_Grab_Object_SWITCH" ObjectPath="\Events\Default Work Unit\Play_Grab_Object_SWITCH"/>
+				<Event Id="136331070" Name="Play_SFX_Drop_Sponge" ObjectPath="\Events\Default Work Unit\Play_SFX_Drop_Sponge"/>
+				<Event Id="392501221" Name="Play_SFX_Grab_Sponge" ObjectPath="\Events\Default Work Unit\Play_SFX_Grab_Sponge"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="106711193" Language="SFX">
@@ -37,9 +41,25 @@
 					<ShortName>SFX_Craquement_03.wav</ShortName>
 					<Path>SFX\SFX_Craquement_03_10C4C929.wem</Path>
 				</File>
+				<File Id="294064250" Language="SFX">
+					<ShortName>SFX_Grab_ObjectMetal.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectMetal_10C4C929.wem</Path>
+				</File>
+				<File Id="328765238" Language="SFX">
+					<ShortName>SFX_Grab_ObjectPorcelain.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectPorcelain_10C4C929.wem</Path>
+				</File>
 				<File Id="389802112" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquetv2_02.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquetv2_02_10C4C929.wem</Path>
+				</File>
+				<File Id="435452180" Language="SFX">
+					<ShortName>SFX_Grab_Sponge.wav</ShortName>
+					<Path>SFX\SFX_Grab_Sponge_10C4C929.wem</Path>
+				</File>
+				<File Id="555879596" Language="SFX">
+					<ShortName>SFX_Sponge_Essorage_01.wav</ShortName>
+					<Path>SFX\SFX_Sponge_Essorage_01_10C4C929.wem</Path>
 				</File>
 				<File Id="560303114" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquetv2_06.wav</ShortName>
@@ -73,6 +93,10 @@
 					<ShortName>SFX_Craquement_00.wav</ShortName>
 					<Path>SFX\SFX_Craquement_00_10C4C929.wem</Path>
 				</File>
+				<File Id="745743475" Language="SFX">
+					<ShortName>SFX_Sponge_Essorage_00.wav</ShortName>
+					<Path>SFX\SFX_Sponge_Essorage_00_C9B497CA.wem</Path>
+				</File>
 				<File Id="762426811" Language="SFX">
 					<ShortName>SFX_Craquement_02.wav</ShortName>
 					<Path>SFX\SFX_Craquement_02_10C4C929.wem</Path>
@@ -96,6 +120,10 @@
 				<File Id="874029082" Language="SFX">
 					<ShortName>SFX_Foleysteps_00.wav</ShortName>
 					<Path>SFX\SFX_Foleysteps_00_10C4C929.wem</Path>
+				</File>
+				<File Id="897574348" Language="SFX">
+					<ShortName>SFX_Drop_Sponge.wav</ShortName>
+					<Path>SFX\SFX_Drop_Sponge_10C4C929.wem</Path>
 				</File>
 				<File Id="933250041" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquetv2_07.wav</ShortName>

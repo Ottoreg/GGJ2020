@@ -46,6 +46,50 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Grab_Object_SWITCH" ID="{D595DE5A-EA2E-4FFB-BF64-543C61B8B07E}">
+					<ChildrenList>
+						<Action Name="" ID="{55F23B9C-1427-4264-804A-B4868153D657}" ShortID="89764100">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grab_Object_SWITCH" ID="{CC4FC95E-4B3F-43A6-A76C-7A49B19F3D69}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Drop_Sponge" ID="{6A4E94BA-EF48-423C-972C-013917AA8A5E}">
+					<ChildrenList>
+						<Action Name="" ID="{41697551-DC49-4B58-868E-1410B989EEDB}" ShortID="117334521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Grab_Sponge" ID="{75FB22A1-BF46-4FF2-B388-52352B355D40}">
+					<ChildrenList>
+						<Action Name="" ID="{45EB2EE3-5F49-4C24-96DC-7534B73E8661}" ShortID="954979161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Essorage_RND" ID="{4C8FCB6A-4007-421B-A44E-D3F346769390}">
+					<ChildrenList>
+						<Action Name="" ID="{CAC24310-D6E2-49B3-9780-6D50CDD98101}" ShortID="1029392794">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Essorage_RND" ID="{B4995DB8-BB71-477B-9DD7-92C1F32C4BAA}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
