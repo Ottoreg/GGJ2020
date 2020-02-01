@@ -73,3 +73,19 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 Plugins/Wwise/LauncherInfo.json
+WindowsNoEditor/Engine/Saved/Config/WindowsNoEditor/Manifest.ini
+WindowsNoEditor/GGJ2020/Content/Paks/GGJ2020-WindowsNoEditor.pak
+WindowsNoEditor/GGJ2020/Saved/Config/CrashReportClient/UE4CC-Windows-860C0E024F3B016B8FF2E799768D5FF9/CrashReportClient.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Compat.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/DeviceProfiles.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Engine.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Game.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/GameUserSettings.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Hardware.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Input.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/OculusVR.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Paper2D.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/PhysXVehicles.ini
+WindowsNoEditor/GGJ2020/Saved/Config/WindowsNoEditor/Scalability.ini
+WindowsNoEditor/GGJ2020/Saved/Logs/GGJ2020.log
+WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
