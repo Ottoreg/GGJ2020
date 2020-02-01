@@ -112,6 +112,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}">
+					<ChildrenList>
+						<Action Name="" ID="{54052FA7-8072-4378-914E-C4F5FD77C12C}" ShortID="999770029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ambiences_InteriorHouse" ID="{F7EEEBB0-9A42-4F2E-8C07-1D3F9C7B496A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

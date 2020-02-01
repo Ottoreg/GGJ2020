@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	902373862	Play_Essorage_RND			\Default Work Unit\Play_Essorage_RND	
 	1119481481	Play_Grab_Object_SWITCH			\Default Work Unit\Play_Grab_Object_SWITCH	
 	1122701954	Play_SFX_Event_PoliceStreetArriving			\Default Work Unit\Play_SFX_Event_PoliceStreetArriving	
+	1887831868	Play_SFX_Ambiences_InteriorHouse			\Default Work Unit\Play_SFX_Ambiences_InteriorHouse	
 	2838179778	Play_Footsteps_SWITCH			\Default Work Unit\Character\Play_Footsteps_SWITCH	
 	2948361678	Play_Breath_State_BLEND			\Default Work Unit\Character\Play_Breath_State_BLEND	
 
@@ -32,6 +33,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	328765238	SFX_Grab_ObjectPorcelain	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_ObjectPorcelain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Grab_Object_SWITCH\SFX_Grab_ObjectPorcelain		44548
 	389802112	SFX_Footsteps_Parquetv2_02	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_02		68380
 	435452180	SFX_Grab_Sponge	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Grab_Sponge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\SFX_Grab_Sponge		33268
+	474446816	SFX_Ambiences_InteriorHouse	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Ambiences_InteriorHouse_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\SFX_Ambiences_InteriorHouse		7119516
 	555879596	SFX_Sponge_Essorage_01	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Sponge_Essorage_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sponge\Essorage_RND\SFX_Sponge_Essorage_01		417240
 	560303114	SFX_Footsteps_Parquetv2_06	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Footsteps_Parquetv2_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps_SWITCH\Fttps_Parquet_RND\SFX_Footsteps_Parquetv2_06		68400
 	581383483	SFX_Event_PoliceStreetArriving	D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Windows\SFX\SFX_Event_PoliceStreetArriving_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Events\SFX_Event_PoliceStreetArriving		4892208

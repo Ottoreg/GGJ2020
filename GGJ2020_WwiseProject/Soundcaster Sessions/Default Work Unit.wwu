@@ -39,7 +39,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
-						<CurrentSwitchRef Name="Parquet" ID="{EECF14AF-C979-45D2-A909-26ABD3F18E42}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{FDE0A6FB-0A25-4253-89AE-AD17A7802EED}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

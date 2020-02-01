@@ -8,6 +8,7 @@
 						<ObjectRef Name="Play_Essorage_RND" ID="{4C8FCB6A-4007-421B-A44E-D3F346769390}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Drop_Sponge" ID="{6A4E94BA-EF48-423C-972C-013917AA8A5E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Footsteps_SWITCH" ID="{6A3808EE-AFAF-4828-8043-0D887052BBF8}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Event_PoliceStreetArriving" ID="{5B5CB818-D319-4F0C-94AB-D03275F05168}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>

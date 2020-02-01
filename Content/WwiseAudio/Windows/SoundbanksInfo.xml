@@ -26,6 +26,7 @@
 				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
 				<Event Id="1119481481" Name="Play_Grab_Object_SWITCH" ObjectPath="\Events\Default Work Unit\Play_Grab_Object_SWITCH"/>
 				<Event Id="532981842" Name="Play_SFX_Ambiences_CityTrafficExterior" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiences_CityTrafficExterior"/>
+				<Event Id="1887831868" Name="Play_SFX_Ambiences_InteriorHouse" ObjectPath="\Events\Default Work Unit\Play_SFX_Ambiences_InteriorHouse"/>
 				<Event Id="136331070" Name="Play_SFX_Drop_Sponge" ObjectPath="\Events\Default Work Unit\Play_SFX_Drop_Sponge"/>
 				<Event Id="1122701954" Name="Play_SFX_Event_PoliceStreetArriving" ObjectPath="\Events\Default Work Unit\Play_SFX_Event_PoliceStreetArriving"/>
 				<Event Id="392501221" Name="Play_SFX_Grab_Sponge" ObjectPath="\Events\Default Work Unit\Play_SFX_Grab_Sponge"/>
@@ -58,6 +59,10 @@
 				<File Id="435452180" Language="SFX">
 					<ShortName>SFX_Grab_Sponge.wav</ShortName>
 					<Path>SFX\SFX_Grab_Sponge_10C4C929.wem</Path>
+				</File>
+				<File Id="474446816" Language="SFX">
+					<ShortName>SFX_Ambiences_InteriorHouse.wav</ShortName>
+					<Path>SFX\SFX_Ambiences_InteriorHouse_D79FB2B7.wem</Path>
 				</File>
 				<File Id="555879596" Language="SFX">
 					<ShortName>SFX_Sponge_Essorage_01.wav</ShortName>
