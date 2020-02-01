@@ -5,14 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{DC2E5FA6-315D-421C-915B-C8AF2C1106DE}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Blood_Splash_RND" ID="{4C127B41-224A-4056-AA74-5C725CD4E4B7}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Essorage_RND" ID="{4C8FCB6A-4007-421B-A44E-D3F346769390}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Drop_Sponge" ID="{6A4E94BA-EF48-423C-972C-013917AA8A5E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Drop_Objet_SWITCH" ID="{7AACDE5D-645F-46AC-B2D5-5DF3085AB818}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Footsteps_SWITCH" ID="{6A3808EE-AFAF-4828-8043-0D887052BBF8}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Event_PoliceStreetArriving" ID="{5B5CB818-D319-4F0C-94AB-D03275F05168}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Grab_Sponge" ID="{75FB22A1-BF46-4FF2-B388-52352B355D40}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Grab_Object_SWITCH" ID="{D595DE5A-EA2E-4FFB-BF64-543C61B8B07E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

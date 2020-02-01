@@ -6,12 +6,28 @@
 				<SoundcasterSession Name="Soundcaster" ID="{44E5BCE2-29E2-4F03-A415-01AD0C56F9D4}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="Blood_Splash_RND" ID="{A604DBDC-F460-4ED1-A683-7074DDE0AB08}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Footsteps_SWITCH" ID="{6A3808EE-AFAF-4828-8043-0D887052BBF8}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Grab_Object_SWITCH" ID="{D595DE5A-EA2E-4FFB-BF64-543C61B8B07E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Drop_Objet_SWITCH" ID="{7AACDE5D-645F-46AC-B2D5-5DF3085AB818}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
@@ -25,21 +41,25 @@
 							<ObjectRef Name="Play_SFX_Event_PoliceStreetArriving" ID="{5B5CB818-D319-4F0C-94AB-D03275F05168}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
 							<Position X="3" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="DistanceToRightPlace" ID="{CDEA4FA5-28EA-48BC-90B1-854365AB7252}"/>
-							<Value>378.205128205128</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Timer" ID="{5B4D72B1-477C-4D87-A008-874695DB708C}"/>
-							<Value>44.621</Value>
+							<Value>16</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
-						<CurrentSwitchRef Name="Carpet" ID="{FDE0A6FB-0A25-4253-89AE-AD17A7802EED}"/>
+						<CurrentSwitchRef Name="Metal" ID="{BCB7B512-F40E-4414-BA95-EA06278D741D}"/>
+						<CurrentSwitchRef Name="Parquet" ID="{EECF14AF-C979-45D2-A909-26ABD3F18E42}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
