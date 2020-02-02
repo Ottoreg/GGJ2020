@@ -140,31 +140,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}">
-							<ChildrenList>
-								<Action Name="" ID="{63DE5AC1-58D7-4528-80C2-CEB642D1A7F7}" ShortID="314812682">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}">
-							<ChildrenList>
-								<Action Name="" ID="{1D4BD3BA-1F5E-4FAC-8F60-5CAD57D080DC}" ShortID="621049579">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Objects" ID="{BDDC2D07-AAE5-47EA-87BC-110B5F142555}" ShortID="739627114">
@@ -208,6 +183,31 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="GrabBody_RND" ID="{46670F41-CE8B-4F46-A340-C267308DDC75}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}">
+							<ChildrenList>
+								<Action Name="" ID="{63DE5AC1-58D7-4528-80C2-CEB642D1A7F7}" ShortID="314812682">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}">
+							<ChildrenList>
+								<Action Name="" ID="{1D4BD3BA-1F5E-4FAC-8F60-5CAD57D080DC}" ShortID="621049579">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -410,6 +410,34 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Music_Menu" ID="{8599250D-7D09-4F3D-A4C6-5B0A55B6C36A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Music_InGame" ID="{33E128E5-F7CF-40E0-BE97-3AC46EB0ED9E}">
+							<ChildrenList>
+								<Action Name="" ID="{84CE0D0D-A8C0-4C27-AEFC-23A725A74290}" ShortID="52630362">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_InGame" ID="{981A6EF7-B3DC-41AC-87C3-8B978A050AC1}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Music_InGame" ID="{08208E94-8AE0-4F3F-8D61-3D11FC210BB2}">
+							<ChildrenList>
+								<Action Name="" ID="{0E71560C-2BE7-4091-AA01-6F73FE871100}" ShortID="674351515">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_InGame" ID="{981A6EF7-B3DC-41AC-87C3-8B978A050AC1}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

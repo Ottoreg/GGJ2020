@@ -14,6 +14,7 @@
 						<Switch Name="Metal" ID="{BCB7B512-F40E-4414-BA95-EA06278D741D}"/>
 						<Switch Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
 						<Switch Name="Sponge" ID="{EF53AB04-BD64-4C91-9E0C-59435924DDEB}"/>
+						<Switch Name="Body" ID="{12214B52-2B8D-43BD-96E7-EC94DFF34EFF}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

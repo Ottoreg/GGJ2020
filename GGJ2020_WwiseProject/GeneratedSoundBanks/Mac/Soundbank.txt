@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	21327379	Pause_Music_InGame			\Default Work Unit\Music\Pause_Music_InGame	
 	59643605	Play_GrabBody_RND			\Default Work Unit\Objects\Play_GrabBody_RND	
 	532981842	Play_SFX_Ambiences_CityTrafficExterior			\Default Work Unit\Ambiences\Play_SFX_Ambiences_CityTrafficExterior	
 	564298475	Stop_Flashback			\Default Work Unit\Ability\Stop_Flashback	
@@ -9,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	924952578	Play_SFX_Event_CrimeSequence			\Default Work Unit\Events\Play_SFX_Event_CrimeSequence	
 	962944353	Play_Music_InGame			\Default Work Unit\Music\Play_Music_InGame	
 	1026313801	Play_Blood_Splash_RND			\Default Work Unit\Other\Play_Blood_Splash_RND	
+	1059710860	Resume_Music_InGame			\Default Work Unit\Music\Resume_Music_InGame	
 	1119481481	Play_Grab_Object_SWITCH			\Default Work Unit\Objects\Play_Grab_Object_SWITCH	
 	1122701954	Play_SFX_Event_PoliceStreetArriving			\Default Work Unit\Events\Play_SFX_Event_PoliceStreetArriving	
 	1288141341	Play_SFX_Event_DoorBreakingEnd			\Default Work Unit\Events\Play_SFX_Event_DoorBreakingEnd	
@@ -32,6 +34,7 @@ Switch	ID	Name	Switch Group			Notes
 	1791601991	Parquet	Ground_Material			
 	2412606308	Carpet	Ground_Material			
 	1165214467	Sponge	Object_Material			
+	1845389165	Body	Object_Material			
 	2473969246	Metal	Object_Material			
 	3020931316	Porcelain	Object_Material			
 

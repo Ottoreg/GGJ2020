@@ -46,6 +46,14 @@
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Pause_Music_InGame" ID="{33E128E5-F7CF-40E0-BE97-3AC46EB0ED9E}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume_Music_InGame" ID="{08208E94-8AE0-4F3F-8D61-3D11FC210BB2}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SFX_Event_CrimeSequence" ID="{02CF6224-099A-45F2-98CA-C255E4812530}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}"/>
 							<Position X="4" Y="4"/>
 						</Module>
@@ -97,7 +105,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Timer" ID="{5B4D72B1-477C-4D87-A008-874695DB708C}"/>
-							<Value>245</Value>
+							<Value>180</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
