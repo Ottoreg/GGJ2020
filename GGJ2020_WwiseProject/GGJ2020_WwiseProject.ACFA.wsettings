@@ -3,10 +3,11 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{58CEE259-CA2A-44CB-BEB4-2BC47253D9C9}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\PROJETS\Global Game Jam 2020\Assets\Character\Footsteps\Parquet"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\PROJETS\Global Game Jam 2020\Assets\Music"/>
 				<Property Name="Event Action List\{02CF6224-099A-45F2-98CA-C255E4812530}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1A385291-2B72-428E-AED4-C3D2481EC525}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1AD0A1F1-BABF-406D-BDC4-5B6449EFE118}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{24E3A4B6-D32C-4827-A653-23C3852CFD7B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{31D54E29-C70F-4A2B-9BFD-896A3B607F41}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{37B201EF-3280-48A1-8630-0E7DCA449FD2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{41D1EFB6-702C-4E6F-8238-A48976369CD9}\x64_Expand States" Type="string" Value=""/>
@@ -17,6 +18,7 @@
 				<Property Name="Event Action List\{633CCE94-B12B-40AE-B37E-BA423751D813}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6A3808EE-AFAF-4828-8043-0D887052BBF8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6A4E94BA-EF48-423C-972C-013917AA8A5E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{74693486-DA1C-426D-9A36-BCEC66390BFF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{75FB22A1-BF46-4FF2-B388-52352B355D40}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7AACDE5D-645F-46AC-B2D5-5DF3085AB818}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{899F01F1-C1AB-405E-BBE6-345334E0117B}\x64_Expand States" Type="string" Value=""/>

@@ -46,64 +46,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}">
-					<ChildrenList>
-						<Action Name="" ID="{B5D2C2AC-36E1-4B3F-8074-43FF42AC0D73}" ShortID="750881721">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Ambiences_CityTrafficExterior" ID="{A506C5B8-BA6F-4CAE-B1F6-66F77A78D0AC}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}">
-					<ChildrenList>
-						<Action Name="" ID="{54052FA7-8072-4378-914E-C4F5FD77C12C}" ShortID="999770029">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Ambiences_InteriorHouse" ID="{F7EEEBB0-9A42-4F2E-8C07-1D3F9C7B496A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}">
-					<ChildrenList>
-						<Action Name="" ID="{1D4BD3BA-1F5E-4FAC-8F60-5CAD57D080DC}" ShortID="621049579">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}">
-					<ChildrenList>
-						<Action Name="" ID="{63DE5AC1-58D7-4528-80C2-CEB642D1A7F7}" ShortID="314812682">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Blood_Splash_RND" ID="{4C127B41-224A-4056-AA74-5C725CD4E4B7}">
-					<ChildrenList>
-						<Action Name="" ID="{B4B235B4-E114-4713-84DF-B3417FA6EC4C}" ShortID="908524081">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Blood_Splash_RND" ID="{A604DBDC-F460-4ED1-A683-7074DDE0AB08}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Events" ID="{8BEEA876-6661-4827-AE5E-CDE27E932390}" ShortID="133418080">
 					<ChildrenList>
 						<Event Name="Play_SFX_Event_PoliceStreetArriving" ID="{5B5CB818-D319-4F0C-94AB-D03275F05168}">
@@ -126,10 +68,36 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{B2E4CA5A-2C12-4A82-A6EC-AC3AEA3B3E4A}" ShortID="104038978">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Menu" ID="{8599250D-7D09-4F3D-A4C6-5B0A55B6C36A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_SFX_Event_DoorBreakingEnd" ID="{41D1EFB6-702C-4E6F-8238-A48976369CD9}">
 							<ChildrenList>
+								<Action Name="" ID="{70C24004-EDF5-4D96-A95C-531604F1B054}" ShortID="242451767">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{DEEA5AF4-8C7F-4019-A2B4-646B47D0FEC5}" ShortID="641951816">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_State_BLEND" ID="{3EE52FE6-AF20-44B5-989E-67ECD0AD6812}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{77E25CC4-C40C-4382-8C06-C26AD6C88372}" ShortID="661815145">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -167,6 +135,31 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Event_PoliceOpenTheDoor" ID="{0E31C196-6BC7-4F74-8728-37533FAD9C7D}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Vibration_BLEND" ID="{45247A95-4B49-4771-9A06-9DB04F597DA4}">
+							<ChildrenList>
+								<Action Name="" ID="{63DE5AC1-58D7-4528-80C2-CEB642D1A7F7}" ShortID="314812682">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Vibration_BLEND" ID="{C650337D-D8CD-4590-BA01-2B6EA29688F2}">
+							<ChildrenList>
+								<Action Name="" ID="{1D4BD3BA-1F5E-4FAC-8F60-5CAD57D080DC}" ShortID="621049579">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -324,6 +317,99 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_UI_Click" ID="{366F33E8-C8DC-445B-92F1-874E81EB1349}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences" ID="{A8A1BA4C-7A93-4301-A2E9-9F683E578F87}" ShortID="345090686">
+					<ChildrenList>
+						<Event Name="Play_SFX_Ambiences_InteriorHouse" ID="{E8113DA2-6975-47C5-B85D-70176115ED0D}">
+							<ChildrenList>
+								<Action Name="" ID="{54052FA7-8072-4378-914E-C4F5FD77C12C}" ShortID="999770029">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Ambiences_InteriorHouse" ID="{F7EEEBB0-9A42-4F2E-8C07-1D3F9C7B496A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Ambiences_CityTrafficExterior" ID="{9B5498F8-1B6F-4621-9AF1-6D7091DFEEDC}">
+							<ChildrenList>
+								<Action Name="" ID="{B5D2C2AC-36E1-4B3F-8074-43FF42AC0D73}" ShortID="750881721">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Ambiences_CityTrafficExterior" ID="{A506C5B8-BA6F-4CAE-B1F6-66F77A78D0AC}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Other" ID="{9D510133-50A5-49D0-8C9D-E8CB292E3644}" ShortID="305408538">
+					<ChildrenList>
+						<Event Name="Play_Blood_Splash_RND" ID="{4C127B41-224A-4056-AA74-5C725CD4E4B7}">
+							<ChildrenList>
+								<Action Name="" ID="{B4B235B4-E114-4713-84DF-B3417FA6EC4C}" ShortID="908524081">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blood_Splash_RND" ID="{A604DBDC-F460-4ED1-A683-7074DDE0AB08}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{A07EC023-8C5F-4B22-ABCB-1ABFB131CF71}" ShortID="599064826">
+					<ChildrenList>
+						<Event Name="Play_Music_InGame" ID="{74693486-DA1C-426D-9A36-BCEC66390BFF}">
+							<ChildrenList>
+								<Action Name="" ID="{39DAB497-3B99-4764-B7FD-4C8703F89945}" ShortID="788585044">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_InGame" ID="{981A6EF7-B3DC-41AC-87C3-8B978A050AC1}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{10024E6B-5E2B-4971-85E8-1B08CBC8E6AA}" ShortID="610612456">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Menu" ID="{8599250D-7D09-4F3D-A4C6-5B0A55B6C36A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Menu" ID="{24E3A4B6-D32C-4827-A653-23C3852CFD7B}">
+							<ChildrenList>
+								<Action Name="" ID="{307287A0-C01A-4CA8-A4E2-8DA0A88766BB}" ShortID="572291737">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{22D09945-F299-4F29-9DE0-F421D831D0A9}" ShortID="1017167012">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_InGame" ID="{981A6EF7-B3DC-41AC-87C3-8B978A050AC1}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A9BE36EE-F7E6-4584-930A-2F1046B38784}" ShortID="77789383">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Menu" ID="{8599250D-7D09-4F3D-A4C6-5B0A55B6C36A}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
