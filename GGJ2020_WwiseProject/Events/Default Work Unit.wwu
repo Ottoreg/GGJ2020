@@ -88,6 +88,26 @@
 									</PropertyList>
 									<ReferenceList/>
 								</Action>
+								<Action Name="" ID="{4169921A-8513-4B55-8674-B1CE1E304364}" ShortID="926713638">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_FlashbackHolding" ID="{C208484D-7121-434C-B11B-1C4BDA07D1C1}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{45D931B0-E7A0-4319-9E27-784E9BA96419}" ShortID="64905036">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vibration_BLEND" ID="{6BF15142-9BA4-4447-A42D-11D244CCD155}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{DEEA5AF4-8C7F-4019-A2B4-646B47D0FEC5}" ShortID="641951816">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>

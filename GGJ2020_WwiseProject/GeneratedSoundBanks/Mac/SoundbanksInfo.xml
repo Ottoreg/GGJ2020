@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -43,10 +43,10 @@
 				<Event Id="921781644" Name="Play_SFX_Event_TimerStart" ObjectPath="\Events\Default Work Unit\Events\Play_SFX_Event_TimerStart"/>
 				<Event Id="3504421513" Name="Play_SFX_UI_Click" ObjectPath="\Events\Default Work Unit\UI\Play_SFX_UI_Click"/>
 				<Event Id="1904964212" Name="Play_UI_Over_RND" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Over_RND"/>
-				<Event Id="3341621984" Name="Play_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Events\Play_Vibration_BLEND"/>
+				<Event Id="3341621984" Name="Play_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Objects\Play_Vibration_BLEND"/>
 				<Event Id="1059710860" Name="Resume_Music_InGame" ObjectPath="\Events\Default Work Unit\Music\Resume_Music_InGame"/>
 				<Event Id="564298475" Name="Stop_Flashback" ObjectPath="\Events\Default Work Unit\Ability\Stop_Flashback"/>
-				<Event Id="565574810" Name="Stop_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Events\Stop_Vibration_BLEND"/>
+				<Event Id="565574810" Name="Stop_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Objects\Stop_Vibration_BLEND"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="28932327" Language="SFX">
@@ -207,7 +207,7 @@
 				</File>
 				<File Id="660991772" Language="SFX">
 					<ShortName>SFX_Breath_MediumLoop.wav</ShortName>
-					<Path>SFX\SFX_Breath_MediumLoop_D79FB2B7.wem</Path>
+					<Path>SFX\SFX_Breath_MediumLoop_DC16DEA0.wem</Path>
 				</File>
 				<File Id="687360987" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquet_04.wav</ShortName>

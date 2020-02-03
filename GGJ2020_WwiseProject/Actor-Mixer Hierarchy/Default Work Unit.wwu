@@ -213,6 +213,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Breath_MediumLoop" ID="{67A0605A-708C-4B48-AA78-CC57AA49AA7C}" ShortID="660991772">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="8.43512324245381E-02"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="31.124870307228"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>SFX_Breath_MediumLoop.wav</AudioFile>
 										</AudioFileSource>
@@ -248,7 +253,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -320,14 +325,14 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>36</RightEdgePos>
+												<RightEdgePos>30</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="SFX_Breath_MediumLoop" ID="{48C4F12F-2DD1-4101-9D6C-16476211D1F4}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>36</LeftEdgePos>
+												<LeftEdgePos>30</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>90</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -362,11 +367,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>4.86076</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>32.307696</XPos>
+																<XPos>30</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -392,7 +398,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>32.8846153846154</RightEdgePos>
+												<RightEdgePos>30</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -404,7 +410,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -832,7 +838,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1157,6 +1163,11 @@
 							<ChildrenList>
 								<Sound Name="SFX_Grab_ObjectMetal" ID="{FA705444-61AB-42DB-90EC-4CC28B81BE4F}" ShortID="847351852">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-2</Value>
@@ -1182,6 +1193,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Grab_ObjectPorcelain" ID="{0ACF41ED-DD3B-4947-BD99-EA3BC23AA1D7}" ShortID="989063648">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
@@ -1345,7 +1363,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>21</Value>
+												<Value>28</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -1450,9 +1468,19 @@
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Essorage_RND" ID="{B4995DB8-BB71-477B-9DD7-92C1F32C4BAA}" ShortID="242619013">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1638,7 +1666,6 @@
 						<Sound Name="SFX_SpongeCleaning-Loop" ID="{5FFC91F4-958C-409A-82A0-9508F055855C}" ShortID="616051286">
 							<PropertyList>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
@@ -1666,6 +1693,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_SpongeCleaning-Loop" ID="{6719AD1F-2F25-4303-9C64-E9E410C239EB}" ShortID="777414666">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="6.52708663374026E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="8.15885829217526E-02"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.19365316217811"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.18441458546889"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_SpongeCleaning-Loop.wav</AudioFile>
 								</AudioFileSource>
@@ -1693,7 +1727,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1785,10 +1819,15 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Craquements_Steps_RND" ID="{349A4670-7213-41AA-BE73-EFA63D6850E6}" ShortID="912304981">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2061,7 +2100,7 @@
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2106,6 +2145,11 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2185,9 +2229,14 @@
 						<RandomSequenceContainer Name="Blood_Splash_RND" ID="{A604DBDC-F460-4ED1-A683-7074DDE0AB08}" ShortID="857993568">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>17</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>19</Value>
+										<Value>43</Value>
 									</ValueList>
 								</Property>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
@@ -2432,9 +2481,14 @@
 					<ChildrenList>
 						<Sound Name="SFX_UI_Click" ID="{366F33E8-C8DC-445B-92F1-874E81EB1349}" ShortID="285245546">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2458,6 +2512,11 @@
 						</Sound>
 						<RandomSequenceContainer Name="UI_Over_RND" ID="{B19F0876-113A-4D48-AFA8-595281EFF778}" ShortID="764915605">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>2</Value>
@@ -2584,6 +2643,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Music_InGame" ID="{981A6EF7-B3DC-41AC-87C3-8B978A050AC1}" ShortID="819463740">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>

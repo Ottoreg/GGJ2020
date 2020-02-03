@@ -4,13 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{094A33FE-0988-45D0-A803-91E6232DF5E8}" WorkUnitID="{926D4332-419B-4A8B-8BE4-4BC94ADA5297}"/>
-						</Reference>
-					</ReferenceList>
-				</Bus>
-				<Bus Name="Effects" ID="{CFE44379-C040-49D8-8E43-1864C29C99D1}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{094A33FE-0988-45D0-A803-91E6232DF5E8}" WorkUnitID="{926D4332-419B-4A8B-8BE4-4BC94ADA5297}"/>
@@ -25,6 +25,13 @@
 							</ReferenceList>
 						</AuxBus>
 					</ChildrenList>
+				</Bus>
+				<Bus Name="Effects" ID="{CFE44379-C040-49D8-8E43-1864C29C99D1}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{094A33FE-0988-45D0-A803-91E6232DF5E8}" WorkUnitID="{926D4332-419B-4A8B-8BE4-4BC94ADA5297}"/>
+						</Reference>
+					</ReferenceList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
