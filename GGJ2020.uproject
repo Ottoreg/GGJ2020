@@ -1,6 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.23",
+	"EngineAssociation": "{97B8B7B2-4149-B41E-93BC-3D8037265ECE}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GGJ2020",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
