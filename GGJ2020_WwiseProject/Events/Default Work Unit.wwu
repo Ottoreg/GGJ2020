@@ -44,6 +44,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_Breath" ID="{43EDE289-6D3D-43A6-9375-74A7C50E9128}">
+							<ChildrenList>
+								<Action Name="" ID="{08799B4B-43A3-4407-9C6D-CC50A9BB8C19}" ShortID="969857791">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_State_BLEND" ID="{3EE52FE6-AF20-44B5-989E-67ECD0AD6812}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Events" ID="{8BEEA876-6661-4827-AE5E-CDE27E932390}" ShortID="133418080">
@@ -242,7 +256,7 @@
 								<Action Name="" ID="{EF4F8800-E879-4D3B-A951-92B21F82B424}" ShortID="402813326">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_SpongeCleaning-Loop" ID="{5FFC91F4-958C-409A-82A0-9508F055855C}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+											<ObjectRef Name="Eponge_Cleaning_RND" ID="{54D76C0D-AC36-42B6-8062-A9C3C173AEA7}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -256,7 +270,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX_SpongeCleaning-Loop" ID="{5FFC91F4-958C-409A-82A0-9508F055855C}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+											<ObjectRef Name="Eponge_Cleaning_RND" ID="{54D76C0D-AC36-42B6-8062-A9C3C173AEA7}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -279,6 +293,16 @@
 					<ChildrenList>
 						<Event Name="Play_Flashback" ID="{31D54E29-C70F-4A2B-9BFD-896A3B607F41}">
 							<ChildrenList>
+								<Action Name="" ID="{D47D8184-AAE7-41AE-A46C-598B60BE5304}" ShortID="235054585">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_State_BLEND" ID="{3EE52FE6-AF20-44B5-989E-67ECD0AD6812}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{2E214DF0-62D7-40F9-A3CB-49D088537558}" ShortID="666475635">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -311,6 +335,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_FlashbackHolding" ID="{C208484D-7121-434C-B11B-1C4BDA07D1C1}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2594E816-AD7A-4FA6-9103-D468C3BDB852}" ShortID="259674033">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_State_BLEND" ID="{3EE52FE6-AF20-44B5-989E-67ECD0AD6812}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

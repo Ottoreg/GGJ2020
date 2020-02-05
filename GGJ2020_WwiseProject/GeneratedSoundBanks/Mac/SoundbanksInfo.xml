@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Simon\Git Repositories\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GIT REPOSITORIES\Global Game Jam\Game Jam 2020\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -207,7 +207,7 @@
 				</File>
 				<File Id="660991772" Language="SFX">
 					<ShortName>SFX_Breath_MediumLoop.wav</ShortName>
-					<Path>SFX\SFX_Breath_MediumLoop_DC16DEA0.wem</Path>
+					<Path>SFX\SFX_Breath_MediumLoop_4B5265E9.wem</Path>
 				</File>
 				<File Id="687360987" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquet_04.wav</ShortName>
