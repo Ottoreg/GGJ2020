@@ -1163,6 +1163,11 @@
 							<ChildrenList>
 								<Sound Name="SFX_Grab_ObjectMetal" ID="{FA705444-61AB-42DB-90EC-4CC28B81BE4F}" ShortID="847351852">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>21</Value>
@@ -1262,7 +1267,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1287,14 +1292,72 @@
 										<ActiveSource Name="SFX_GrabBody_00" ID="{761D5DB4-693A-4535-A9C3-BFD0D4E50628}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Grab_ObjectGlass" ID="{E3A9C07D-326A-4995-85E9-4BE983A4CC94}" ShortID="514055484">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Grab_ObjectGlass" ID="{B1A9A553-8C1A-4A21-A561-7DAAED0C2AD6}" ShortID="682514153">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Grab_ObjectGlass.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Grab_ObjectGlass" ID="{B1A9A553-8C1A-4A21-A561-7DAAED0C2AD6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Grab_ObjectWood" ID="{D3F46B2C-4B25-42B3-B8B1-285E38809F4F}" ShortID="1003969801">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Grab_ObjectWood" ID="{F8353F92-DEDF-487D-A6A4-E409C9297099}" ShortID="21997482">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Grab_ObjectWood.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Grab_ObjectWood" ID="{F8353F92-DEDF-487D-A6A4-E409C9297099}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="SFX_Grab_ObjectWood" ID="{D3F46B2C-4B25-42B3-B8B1-285E38809F4F}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SFX_Grab_ObjectMetal" ID="{FA705444-61AB-42DB-90EC-4CC28B81BE4F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SFX_GrabBody_00" ID="{5DB20E47-5447-4ADD-8F45-5F9F973EA2A3}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SFX_Grab_ObjectGlass" ID="{E3A9C07D-326A-4995-85E9-4BE983A4CC94}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}"/>
@@ -1308,6 +1371,12 @@
 										<SwitchRef Name="Sponge" ID="{EF53AB04-BD64-4C91-9E0C-59435924DDEB}"/>
 										<ItemList>
 											<ItemRef Name="SFX_Grab_Sponge" ID="{086A04C4-6C3D-46DD-8B9B-4CC7281CA5F4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{CD370906-4D7B-4943-BC2B-DC296A31E719}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Grab_ObjectWood" ID="{D3F46B2C-4B25-42B3-B8B1-285E38809F4F}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -1326,6 +1395,12 @@
 										<SwitchRef Name="Body" ID="{12214B52-2B8D-43BD-96E7-EC94DFF34EFF}"/>
 										<ItemList>
 											<ItemRef Name="SFX_GrabBody_00" ID="{5DB20E47-5447-4ADD-8F45-5F9F973EA2A3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Glass" ID="{FC1737EB-173C-4B7F-84C2-22F4F144A791}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Grab_ObjectGlass" ID="{E3A9C07D-326A-4995-85E9-4BE983A4CC94}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -1391,6 +1466,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="SFX_Objects_DropPorcelain" ID="{7DF16527-22DA-4EA2-8477-BAB7255D9EA5}" ShortID="81461420">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
@@ -1431,11 +1513,69 @@
 										<ActiveSource Name="SFX_Drop_Sponge" ID="{F657B546-45E9-429E-B426-BA590E662C58}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Objects_DropGlass" ID="{8437A25C-D905-4C35-9972-58BB05E30BD0}" ShortID="53388174">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Objects_DropGlass" ID="{4F2F5479-BFB8-48DC-8527-178B8509BB1E}" ShortID="134703576">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Objects_DropGlass.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Objects_DropGlass" ID="{4F2F5479-BFB8-48DC-8527-178B8509BB1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Objects_DropWood" ID="{A52D7E00-9FCF-4E2F-9157-9E83F4E2AA7A}" ShortID="196236470">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Objects_DropWood" ID="{BE9578F5-7D7E-44A9-BA83-881F24FBCD58}" ShortID="989088541">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Objects_DropWood.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Objects_DropWood" ID="{BE9578F5-7D7E-44A9-BA83-881F24FBCD58}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
+										<ItemRef Name="SFX_Objects_DropWood" ID="{A52D7E00-9FCF-4E2F-9157-9E83F4E2AA7A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="SFX_Objects_DropPorcelain" ID="{7DF16527-22DA-4EA2-8477-BAB7255D9EA5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SFX_Objects_DropGlass" ID="{8437A25C-D905-4C35-9972-58BB05E30BD0}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="SFX_Drop_Sponge" ID="{0306C97B-80B0-4CCC-A31D-AB7A2DE0C563}"/>
@@ -1452,6 +1592,12 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
+										<SwitchRef Name="Wood" ID="{CD370906-4D7B-4943-BC2B-DC296A31E719}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Objects_DropWood" ID="{A52D7E00-9FCF-4E2F-9157-9E83F4E2AA7A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
 										<ItemList>
 											<ItemRef Name="SFX_Objects_DropPorcelain" ID="{7DF16527-22DA-4EA2-8477-BAB7255D9EA5}"/>
@@ -1463,11 +1609,18 @@
 											<ItemRef Name="SFX_Objects_DropMetal" ID="{F7B0D77D-8802-443D-830C-FD6212FE526E}"/>
 										</ItemList>
 									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Glass" ID="{FC1737EB-173C-4B7F-84C2-22F4F144A791}"/>
+										<ItemList>
+											<ItemRef Name="SFX_Objects_DropGlass" ID="{8437A25C-D905-4C35-9972-58BB05E30BD0}"/>
+										</ItemList>
+									</Grouping>
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Essorage_RND" ID="{B4995DB8-BB71-477B-9DD7-92C1F32C4BAA}" ShortID="242619013">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>37</Value>
@@ -1478,13 +1631,18 @@
 										<Value>22</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Essorage Attenuation" ID="{F14E2ADD-1F26-45D2-A56E-0CA9C8FF0F90}" WorkUnitID="{5A66EB00-EEBE-41BB-A45B-A5AD81696DE6}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
 								</Reference>
@@ -1759,7 +1917,7 @@
 										<Value>36</Value>
 									</ValueList>
 								</Property>
-								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
@@ -2450,6 +2608,36 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="SFX_Placard" ID="{B468DE7F-81ED-4536-85DC-661E4821DE0F}" ShortID="308485787">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6AA04B2-C143-4E12-AA59-2619B5CDE330}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FC723F9B-738B-49BE-BF1A-A95A3E496E4E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Placard" ID="{B982A993-4EDE-40C6-B66B-5E999F7A70A0}" ShortID="966315934">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Placard.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Placard" ID="{B982A993-4EDE-40C6-B66B-5E999F7A70A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ability" ID="{DE90454E-2CF3-44EF-A6AF-4DDECA8CF867}" ShortID="19282746">
@@ -2487,13 +2675,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SFX_FlashbackHolding" ID="{D1919E00-9286-4E42-80DE-243E9F89D4B0}" ShortID="334077068">
+								<AudioFileSource Name="SFX_FlashbackHolding_v2" ID="{7733A8C4-7229-44D3-BAEB-F42B678CFE0C}" ShortID="199935509">
 									<Language>SFX</Language>
-									<AudioFile>SFX_FlashbackHolding.wav</AudioFile>
+									<AudioFile>SFX_FlashbackHolding_v2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SFX_FlashbackHolding" ID="{D1919E00-9286-4E42-80DE-243E9F89D4B0}" Platform="Linked"/>
+								<ActiveSource Name="SFX_FlashbackHolding_v2" ID="{7733A8C4-7229-44D3-BAEB-F42B678CFE0C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_FlashbackOff" ID="{1E2028DD-4C7E-417C-AE5B-CB169C25702A}" ShortID="1026563502">

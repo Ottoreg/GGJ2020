@@ -26,13 +26,6 @@
 						</AuxBus>
 					</ChildrenList>
 				</Bus>
-				<Bus Name="Effects" ID="{CFE44379-C040-49D8-8E43-1864C29C99D1}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{094A33FE-0988-45D0-A803-91E6232DF5E8}" WorkUnitID="{926D4332-419B-4A8B-8BE4-4BC94ADA5297}"/>
-						</Reference>
-					</ReferenceList>
-				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

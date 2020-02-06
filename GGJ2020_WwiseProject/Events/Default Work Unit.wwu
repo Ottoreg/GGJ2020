@@ -414,6 +414,27 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_HideBody" ID="{D5579409-C50B-4C2E-AD4A-D6EA239D392C}">
+							<ChildrenList>
+								<Action Name="" ID="{EBDF4108-C242-48BB-901F-1CE8C276B6AB}" ShortID="478858921">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GrabBody_RND" ID="{46670F41-CE8B-4F46-A340-C267308DDC75}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{10008CC3-4716-4DCF-AF9D-67530DD2F7B0}" ShortID="372291766">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Placard" ID="{B468DE7F-81ED-4536-85DC-661E4821DE0F}" WorkUnitID="{E39173A1-793B-420B-9099-C59C64335D9A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{A07EC023-8C5F-4B22-ABCB-1ABFB131CF71}" ShortID="599064826">

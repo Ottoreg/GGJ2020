@@ -25,6 +25,7 @@
 						<ObjectRef Name="Play_SFX_UI_Click" ID="{FE4D180B-3CF0-49B4-B45F-B9E646301687}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flashback" ID="{31D54E29-C70F-4A2B-9BFD-896A3B607F41}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Event_DoorKnoking" ID="{AD837377-3341-4B2B-BF82-352956D37D3F}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_HideBody" ID="{D5579409-C50B-4C2E-AD4A-D6EA239D392C}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Event_DoorBreakingEnd" ID="{41D1EFB6-702C-4E6F-8238-A48976369CD9}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Breath_State_BLEND" ID="{FCA48CA3-E30E-4E83-90E2-105BC4880238}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_GrabBody_RND" ID="{BB30AA16-B5DE-4EE2-8D65-55B89CF9554A}" WorkUnitID="{A3BDC1F5-FA35-4F76-9F33-86E0A0EC0D19}" Filter="7" Origin="Manual"/>

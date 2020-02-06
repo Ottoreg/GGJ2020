@@ -15,6 +15,8 @@
 						<Switch Name="Porcelain" ID="{478FF90D-109C-41C7-9348-8822C799F084}"/>
 						<Switch Name="Sponge" ID="{EF53AB04-BD64-4C91-9E0C-59435924DDEB}"/>
 						<Switch Name="Body" ID="{12214B52-2B8D-43BD-96E7-EC94DFF34EFF}"/>
+						<Switch Name="Glass" ID="{FC1737EB-173C-4B7F-84C2-22F4F144A791}"/>
+						<Switch Name="Wood" ID="{CD370906-4D7B-4943-BC2B-DC296A31E719}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

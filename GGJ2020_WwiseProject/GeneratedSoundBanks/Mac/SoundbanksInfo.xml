@@ -30,6 +30,7 @@
 				<Event Id="2838179778" Name="Play_Footsteps_SWITCH" ObjectPath="\Events\Default Work Unit\Character\Play_Footsteps_SWITCH"/>
 				<Event Id="1119481481" Name="Play_Grab_Object_SWITCH" ObjectPath="\Events\Default Work Unit\Objects\Play_Grab_Object_SWITCH"/>
 				<Event Id="59643605" Name="Play_GrabBody_RND" ObjectPath="\Events\Default Work Unit\Objects\Play_GrabBody_RND"/>
+				<Event Id="2335338990" Name="Play_HideBody" ObjectPath="\Events\Default Work Unit\Other\Play_HideBody"/>
 				<Event Id="962944353" Name="Play_Music_InGame" ObjectPath="\Events\Default Work Unit\Music\Play_Music_InGame"/>
 				<Event Id="1699343283" Name="Play_Music_Menu" ObjectPath="\Events\Default Work Unit\Music\Play_Music_Menu"/>
 				<Event Id="3158449573" Name="Play_Object_RightPlace_SEQ" ObjectPath="\Events\Default Work Unit\Objects\Play_Object_RightPlace_SEQ"/>
@@ -49,6 +50,10 @@
 				<Event Id="565574810" Name="Stop_Vibration_BLEND" ObjectPath="\Events\Default Work Unit\Objects\Stop_Vibration_BLEND"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="21997482" Language="SFX">
+					<ShortName>SFX_Grab_ObjectWood.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectWood_10C4C929.wem</Path>
+				</File>
 				<File Id="28932327" Language="SFX">
 					<ShortName>Music_InGame.wav</ShortName>
 					<Path>SFX\Music_InGame_10C4C929.wem</Path>
@@ -64,6 +69,14 @@
 				<File Id="126471085" Language="SFX">
 					<ShortName>SFX_UI_Click.wav</ShortName>
 					<Path>SFX\SFX_UI_Click_10C4C929.wem</Path>
+				</File>
+				<File Id="134703576" Language="SFX">
+					<ShortName>SFX_Objects_DropGlass.wav</ShortName>
+					<Path>SFX\SFX_Objects_DropGlass_10C4C929.wem</Path>
+				</File>
+				<File Id="199935509" Language="SFX">
+					<ShortName>SFX_FlashbackHolding_v2.wav</ShortName>
+					<Path>SFX\SFX_FlashbackHolding_v2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="201467078" Language="SFX">
 					<ShortName>Music_Menu.wav</ShortName>
@@ -96,10 +109,6 @@
 				<File Id="328765238" Language="SFX">
 					<ShortName>SFX_Grab_ObjectPorcelain.wav</ShortName>
 					<Path>SFX\SFX_Grab_ObjectPorcelain_10C4C929.wem</Path>
-				</File>
-				<File Id="334077068" Language="SFX">
-					<ShortName>SFX_FlashbackHolding.wav</ShortName>
-					<Path>SFX\SFX_FlashbackHolding_D79FB2B7.wem</Path>
 				</File>
 				<File Id="337296142" Language="SFX">
 					<ShortName>SFX_Vibration_HighSynth_Loop.wav</ShortName>
@@ -209,6 +218,10 @@
 					<ShortName>SFX_Breath_MediumLoop.wav</ShortName>
 					<Path>SFX\SFX_Breath_MediumLoop_4B5265E9.wem</Path>
 				</File>
+				<File Id="682514153" Language="SFX">
+					<ShortName>SFX_Grab_ObjectGlass.wav</ShortName>
+					<Path>SFX\SFX_Grab_ObjectGlass_10C4C929.wem</Path>
+				</File>
 				<File Id="687360987" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquet_04.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquet_04_10C4C929.wem</Path>
@@ -305,6 +318,10 @@
 					<ShortName>SFX_ObjectRightPlace_04.wav</ShortName>
 					<Path>SFX\SFX_ObjectRightPlace_04_10C4C929.wem</Path>
 				</File>
+				<File Id="966315934" Language="SFX">
+					<ShortName>SFX_Placard.wav</ShortName>
+					<Path>SFX\SFX_Placard_10C4C929.wem</Path>
+				</File>
 				<File Id="968532482" Language="SFX">
 					<ShortName>SFX_GrabBody_01.wav</ShortName>
 					<Path>SFX\SFX_GrabBody_01_10C4C929.wem</Path>
@@ -316,6 +333,10 @@
 				<File Id="984809651" Language="SFX">
 					<ShortName>SFX_Footsteps_Parquetv2_00.wav</ShortName>
 					<Path>SFX\SFX_Footsteps_Parquetv2_00_10C4C929.wem</Path>
+				</File>
+				<File Id="989088541" Language="SFX">
+					<ShortName>SFX_Objects_DropWood.wav</ShortName>
+					<Path>SFX\SFX_Objects_DropWood_10C4C929.wem</Path>
 				</File>
 				<File Id="989623763" Language="SFX">
 					<ShortName>SFX_Event_TimerStart.wav</ShortName>
